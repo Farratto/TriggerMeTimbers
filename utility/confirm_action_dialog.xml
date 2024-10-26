@@ -13,16 +13,16 @@
 				<resource>dialog_confirm_title</resource>
 			</windowtitlebar>
 			<anchor_title_utilitybox3 name="contentanchor" />
-			
+
 			<anchor_bottom_utilitybox3 name="bottomanchor" />
-			
+
 			<button_dialog_ok name="button_ok">
 				<anchored to="bottomanchor" position="insidetopright" offset="40,-5" />
 			</button_dialog_ok>
 			<button_dialog_cancel name="button_cancel">
 				<anchored to="bottomanchor" position="insidetopright" offset="5,-5" />
 			</button_dialog_cancel>
-			
+
 			<close_utilitybox3 />
 		</sheetdata>
 	</windowclass>

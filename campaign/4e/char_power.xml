@@ -7,5 +7,5 @@
 <root>
 	<windowclass name="char_power" merge="join" ruleset="4E">
 		<script file="campaign/4e/scripts/char_power.lua" />
-	</windowclass> 
+	</windowclass>
 </root>

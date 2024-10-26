@@ -411,6 +411,11 @@ function endTriggerInterruption(sInterruptionKey, msgOOB)
 		return;
 	end
 
+	rInterruptedEvent.nPendingInterruptions = tonumber(rInterruptedEvent.nPendingInterruptions)
+	if rInterruptedEvent.nPendingInterruptions == nil then
+		rInterruptedEvent.nPendingInterruptions = 1
+	end
+
 	rInterruptedEvent.nPendingInterruptions = rInterruptedEvent.nPendingInterruptions - 1;
 	if rInterruptedEvent.nPendingInterruptions <= 0 then
 		-- TODO if ever using multiple interruptions from a single action, figure out event data on resume.

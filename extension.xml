@@ -31,14 +31,14 @@ Wood Board Vectors by Vecteezy
 <root release="3.0" version="3">
 	<properties>
 		<name>Feature: Trigger Me Timbers</name>
-		<version>dev_version</version>
+		<version>~dev_version~</version>
 		<author>MeAndUnique</author>
 		<description>Adds support for creating triggers that can respond to events occurring in the game with automated actions.</description>
 		<loadorder>1499</loadorder>
 	</properties>
 
 	<base>
-		<script name="ActionsManagerTMT" file="scripts/manager_actions_tmt.lua" />		
+		<script name="ActionsManagerTMT" file="scripts/manager_actions_tmt.lua" />
 		<script name="ChatManagerTMT" file="scripts/manager_chat_tmt.lua" />
 		<script name="CampaignDataManagerTMT" file="scripts/manager_campaigndata_tmt.lua" />
 		<script name="CombatManagerTMT" file="scripts/manager_combat_tmt.lua" />
@@ -68,16 +68,18 @@ Wood Board Vectors by Vecteezy
 
 		<includefile source="graphics/graphics_icons.xml" />
 		<includefile source="strings/strings.xml" />
-		
+
 		<script name="PowerUpTMT">
 			function onInit()
 				if PowerUp then
-					PowerUp.registerExtension("Trigger Me Timbers", "dev_version");
+					PowerUp.registerExtension("Trigger Me Timbers", "~dev_version~", {
+						['message'] = "~dev_version~\~update_notes~"
+					});
 				end
 			end
 		</script>
 	</base>
 
-	<announcement text="Trigger Me Timbers dev_version by MeAndUnique." icon="TriggerMeTimbers" font="emotefont" />
+	<announcement text="Trigger Me Timbers ~dev_version~ by MeAndUnique." icon="TriggerMeTimbers" font="emotefont" />
 
 </root>

@@ -1,4 +1,9 @@
+
 # Trigger Me Timbers
+
+**Current Version:** ~dev_version~ \
+**Updated:** ~date~
+
 Trigger Me Timbers adds support for creating triggers that can respond to events occurring in the game with automated actions.
 
 This is accomplished through the use of a new Active Triggers window accessible in the upper right hand corner near the Combat Tracker. Each trigger consists of one or more events and one or more actions. Further, each event may include zero or more conditions. Whenever the associated event occurs during play, each of the conditions is evaluated, if they are all satisfied all of the actions take place. Individual conditions may also be inverted to account for a situation that must not be satisfied for the event in order for the action to take place. Both conditions and actions are situationally available, depending on the triggering events.
@@ -15,12 +20,14 @@ Check it out and please let me know if you have any comments or concerns.
 Hope it helps!
 
 ## Installation
-Download [TriggerMeTimbers.ext](https://github.com/MeAndUnique/TriggerMeTimbers/releases) and place in the extensions subfolder of the Fantasy Grounds data folder.
+
+Download [TriggerMeTimbers.ext](https://github.com/Farratto/TriggerMeTimbers/releases) and place in the extensions subfolder of the Fantasy Grounds data folder.
 
 ## Attribution
-SmiteWorks owns rights to code sections copied from their rulesets by permission for Fantasy Grounds community development.
-'Fantasy Grounds' is a trademark of SmiteWorks USA, LLC.
-'Fantasy Grounds' is Copyright 2004-2021 SmiteWorks USA LLC.
 
-<a href="https://www.vecteezy.com/free-vector/lightning-bolt">Lightning Bolt Vectors by Vecteezy</a>
+SmiteWorks owns rights to code sections copied from their rulesets by permission for Fantasy Grounds community development. \
+'Fantasy Grounds' is a trademark of SmiteWorks USA, LLC. \
+'Fantasy Grounds' is Copyright 2004-2021 SmiteWorks USA LLC. \
+
+<a href="https://www.vecteezy.com/free-vector/lightning-bolt">Lightning Bolt Vectors by Vecteezy</a> \
 <a href="https://www.vecteezy.com/free-vector/wood-board">Wood Board Vectors by Vecteezy</a>

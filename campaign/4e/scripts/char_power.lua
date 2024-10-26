@@ -26,8 +26,8 @@ function activatePower()
 	local sAction = DB.getValue(node, "action", "");
 	local sKeywords = DB.getValue(node, "keywords", "");
 
-	local rPower = { 
-		sName = sName, 
+	local rPower = {
+		sName = sName,
 		sRange = sRange,
 		sRecharge = sRecharge,
 		sAction = sAction,

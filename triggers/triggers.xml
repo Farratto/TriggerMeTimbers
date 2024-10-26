@@ -14,7 +14,7 @@
 			<masterindexitem_anchor_right name="rightanchor" />
 			<masterindexitem_idelete name="idelete" />
 			<masterindexitem_category name="category" />
-			
+
 			<masterindexitem_name name="name" />
 		</sheetdata>
 	</windowclass>
@@ -299,7 +299,7 @@
 			</line_column>
 		</sheetdata>
 	</windowclass>
-	
+
 	<windowclass name="empty_trigger_parameter">
 	</windowclass>
 
