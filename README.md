@@ -1,8 +1,7 @@
+## Trigger Me Timbers
 
-# Trigger Me Timbers
-
-**Current Version:** ~dev_version~ \
-**Updated:** ~date~
+**Current Version**: ~dev_version~ \
+**Updated**: ~date~
 
 Trigger Me Timbers adds support for creating triggers that can respond to events occurring in the game with automated actions.
 
@@ -19,15 +18,21 @@ Two modules are included: "TMT Core Examples" and "TMT D&D 5E Examples" which in
 Check it out and please let me know if you have any comments or concerns.
 Hope it helps!
 
-## Installation
+### Installation
 
-Download [TriggerMeTimbers.ext](https://github.com/Farratto/TriggerMeTimbers/releases) and place in the extensions subfolder of the Fantasy Grounds data folder.
+You can install and find the source code at Farratto's [GitHub](https://github.com/Farratto/TriggerMeTimbers/releases). \
+You can ask questions at the [Fantasy Grounds Forum](https://www.fantasygrounds.com/forums/showthread.php?73326-Trigger-Me-Timbers).
 
-## Attribution
+### Attribution
 
 SmiteWorks owns rights to code sections copied from their rulesets by permission for Fantasy Grounds community development. \
 'Fantasy Grounds' is a trademark of SmiteWorks USA, LLC. \
-'Fantasy Grounds' is Copyright 2004-2021 SmiteWorks USA LLC. \
+'Fantasy Grounds' is Copyright 2004-2021 SmiteWorks USA LLC.
 
 <a href="https://www.vecteezy.com/free-vector/lightning-bolt">Lightning Bolt Vectors by Vecteezy</a> \
 <a href="https://www.vecteezy.com/free-vector/wood-board">Wood Board Vectors by Vecteezy</a>
+
+### Change Log
+
+* v0.2.1-rc1: Minor bug fix
+
